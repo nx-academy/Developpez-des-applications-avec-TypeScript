@@ -8,7 +8,10 @@ Ce cours ainsi que son projet fil rouge ont été écrits, développés et test�
 
 - [NodeJS](https://nodejs.org/en) : Ce cours a été testé pour la version 18 de
   NodeJS. Je vous invite fortement à utiliser cette version.
-- [Visual Studio Code](https://code.visualstudio.com/) : Visual Studio Code est notre éditeur de texte durant tout le cours. 
+
+## Outils conseillés
+
+- [Visual Studio Code](https://code.visualstudio.com/) : Visual Studio Code est notre éditeur de texte durant tout le cours. Tous les screencasts seront réalisés avec lui.
 
 
 ## Installation

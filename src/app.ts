@@ -1,6 +1,5 @@
 const sayHello = (): void => {
-  console.log("Hello, World!")
-}
+  console.log("Hello, World!");
+};
 
-sayHello()
-
+sayHello();

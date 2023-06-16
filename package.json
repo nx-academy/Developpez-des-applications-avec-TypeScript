@@ -5,6 +5,7 @@
     "typecheck": "tsc --noEmit"
   },
   "devDependencies": {
+    "eslint": "^8.40.0",
     "typescript": "^5.0.4"
   }
 }

@@ -1,6 +1,6 @@
 # Développez des applications avec TypeScript
 
-Bienvenue sur le code source du projet fil rouge **Developer Statistics Tool**. Ce projet a été réalisé en lien avec le cours **Développez des applications avec TypeScript** sur Nx.
+Bienvenue sur le code source du projet fil rouge **Developer Statistics Tool**. Ce projet a été réalisé en lien avec le cours **Développez des applications avec TypeScript** sur [NX](https://nx.academy).
 
 Ce cours ainsi que son projet fil rouge ont été écrits, développés et testés sur Mac et Windows. Ce projet est **open source**. Si vous avez une question, que vous avez trouvé une faute d'orthographe ou que quelque chose ne vous semble pas clair, je vous invite à ouvrir une [issue](https://github.com/next-level-run/Developpez-des-applications-avec-TypeScript/issues).
 

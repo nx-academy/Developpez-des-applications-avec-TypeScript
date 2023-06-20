@@ -1,5 +1,5 @@
 function sayHello() {
-    var age = 37
-    var sentence = 'hello'
-    console.log(sentence)
+  var age = 37;
+  var sentence = "hello";
+  console.log(sentence);
 }

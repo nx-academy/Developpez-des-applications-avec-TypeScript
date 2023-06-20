@@ -1,7 +1,9 @@
 {
   "scripts": {
-    "start": "node ./dist/app.js",
     "dev": "tsc --watch --preserveWatchOutput",
+    "format": "prettier --write \"src/**/*.ts\"",
+    "lint": "eslint \"src/**/*.ts\"",
+    "start": "node ./dist/app.js",
     "typecheck": "tsc --noEmit"
   },
   "devDependencies": {

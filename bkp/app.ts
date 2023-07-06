@@ -11,7 +11,9 @@ function displayEngineersList(engineersList: Engineer[]): void {
       lastName: engineer.lastName,
     }))
     .forEach((engineer) =>
-      console.log(`${engineer.id} - ${engineer.firstName} ${engineer.lastName}`)
+      console.log(
+        `${engineer.id} - ${engineer.firstName} ${engineer.lastName}`,
+      ),
     );
 }
 
@@ -19,7 +21,7 @@ function displayEngineerDetails(engineer: Engineer) {
   const sentence = `
     Here are some information about: ${engineer.firstName} ${engineer.lastName}.
     ${engineer.genre[0]} is ${engineer.nationality}.
-  `
+  `;
   console.log(sentence);
 }
 
@@ -43,7 +45,7 @@ function main(): void {
     displayEngineersList(ENGINEERS);
   } else if (options.inspect) {
     const filteredEngineer = ENGINEERS.filter(
-      (engineer) => engineer.id === Number(options.inspect)
+      (engineer) => engineer.id === Number(options.inspect),
     );
 
     if (!filteredEngineer.length) {

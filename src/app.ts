@@ -1,5 +1,3 @@
 const main = () => {
-  const name = "thomas"
-}
-
-
+  const name = "thomas";
+};

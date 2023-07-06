@@ -1,12 +1,11 @@
 {
-  "extends": ["eslint:recommended", "prettier"],
-  "plugins": ["@typescript-eslint/eslint-plugin"],
   "parser": "@typescript-eslint/parser",
   "parserOptions": {
-    "project": "./tsconfig.json",
-    "ecmaVersion": 2015,
+    "ecmaVersion": 12,
     "sourceType": "module"
   },
+  "plugins": ["@typescript-eslint"],
+  "extends": ["eslint:recommended", "plugin:@typescript-eslint/recommended"],
   "env": {
     "node": true
   }

@@ -4,8 +4,7 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "start": "node ./dist/app.js",
-    "dev": "tsc --watch --preserveWatchOutput",
+    "build": "tsc --preserveWatchOutput",
     "format": "prettier --write .",
     "lint": "eslint --ignore-path .eslintignore --ext .ts .",
     "typecheck": "tsc --noEmit"
@@ -18,5 +17,8 @@
     "eslint-config-prettier": "^8.8.0",
     "prettier": "^3.0.0",
     "typescript": "^5.0.4"
+  },
+  "dependencies": {
+    "commander": "^11.0.0"
   }
 }

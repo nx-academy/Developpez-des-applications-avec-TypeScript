@@ -36,19 +36,19 @@ https://github.com/next-level-run/Developpez-des-applications-avec-TypeScript.gi
 Pour installer les librairies :
 
 ```
-yarn
+npm i
 ```
 
 Pour lancer la compilation de TypeScript vers JavaScript :
 
 ```
-yarn dev
+npm run dev
 ```
 
 Pour lancer la CLI :
 
 ```
-yarn start --help
+npm start --help
 ```
 
 ## Informations complémentaires:

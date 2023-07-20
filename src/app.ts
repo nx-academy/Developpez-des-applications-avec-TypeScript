@@ -1,5 +1,5 @@
-const sayHello = (): void => {
-  console.log("Hello, World!")
+function sayHello(): void {
+  console.log("Hello!")
 }
 
 sayHello()

@@ -42,13 +42,13 @@ npm i
 Pour lancer la compilation de TypeScript vers JavaScript :
 
 ```
-npm run dev
+npm run build
 ```
 
 Pour lancer la CLI :
 
 ```
-npm start --help
+node ./dist/app.js --help
 ```
 
 ## Informations complémentaires:

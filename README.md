@@ -58,4 +58,3 @@ node ./dist/app.js --help
 - `partie-2/chapitre-2-debut` - correspond à la branche du début de chaque chapitre
 - `partie-2/chapitre-2-exercice` - (**optionnel**) correspond à la branche d'activité
 - `partie-2/chapitre-2-fin` - correspond à la branche de fin de chapitre.
-

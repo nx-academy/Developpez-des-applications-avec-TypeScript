@@ -1,7 +1,7 @@
 {
   "scripts": {
-    "start": "node ./dist/app.js",
-    "dev": "tsc --watch --preserveWatchOutput"
+    "compile": "node_modules/.bin/tsc",
+    "start": "node ./dist/app.js"
   },
   "devDependencies": {
     "typescript": "^5.0.4"

@@ -4,5 +4,7 @@ function hashPassword(password: string) {
 
 function handleSignIn(email: string, password?: string) {
     // fait quelque chose
-    const hashedPassword = hashPassword(password)
+    if (password) {
+        const hashedPassword = hashPassword(password)
+    }
 }

@@ -1,17 +1,11 @@
 {
-  "name": "app",
-  "version": "1.0.0",
-  "main": "index.js",
-  "license": "MIT",
   "scripts": {
+    "compile": "node_modules/.bin/tsc",
     "start": "node ./dist/app.js",
-    "dev": "tsc --watch --preserveWatchOutput",
     "format": "prettier --write .",
-    "lint": "eslint --ignore-path .eslintignore --ext .ts .",
-    "typecheck": "tsc --noEmit"
+    "lint": "eslint --ignore-path .eslintignore --ext .ts ."
   },
   "devDependencies": {
-    "@types/node": "^20.1.2",
     "@typescript-eslint/eslint-plugin": "^5.61.0",
     "@typescript-eslint/parser": "^5.61.0",
     "eslint": "^8.44.0",

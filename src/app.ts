@@ -1,8 +1,6 @@
-const sayHello = (): void => {
-  const firstName = "thomas";
-  console.log("Hello, World!");
-};
+function sayHello(): void {
+  console.log("Hello!")
+}
 
-function sayHi() {}
+sayHello()
 
-sayHello();

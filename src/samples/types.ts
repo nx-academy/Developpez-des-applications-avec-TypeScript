@@ -32,7 +32,6 @@ const anotherUser: {
   friends: ["Jane Smith", "Michael Johnson"],
 };
 
-
 const myUsers: User[] = [
   {
     firstName: "John",
@@ -49,12 +48,9 @@ const myUsers: User[] = [
     books: ["Introduction to Robotics", "Data Structures and Algorithms"],
     id: 2,
     friends: ["John Doe", "Michael Johnson"],
-  }
-]
+  },
+];
 
 function mergeUsers(user: User): User[] {
-  return [
-    user
-  ]
+  return [user];
 }
-

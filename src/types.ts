@@ -1,23 +1,22 @@
 type Book = {
-  name: string
-  publisher: string
-  url: string
-}
+  name: string;
+  publisher: string;
+  url: string;
+};
 
-type He = ["he", "him"]
-type She = ["she", "her"]
-type They = ["they", "them"]
+type He = ["he", "him"];
+type She = ["she", "her"];
+type They = ["they", "them"];
 
-type Pronouns = He | She | They
+type Pronouns = He | She | They;
 
 type Engineer = {
-  age?: number
-  books?: Book[]
-  firstName: string
-  genre: Pronouns
-  lastName: string
-  nickName?: string,
-}
+  age?: number;
+  books?: Book[];
+  firstName: string;
+  genre: Pronouns;
+  lastName: string;
+  nickName?: string;
+};
 
-export { Engineer }
-
+export { Engineer };

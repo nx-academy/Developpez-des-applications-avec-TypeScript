@@ -31,24 +31,11 @@ git@github.com:nx-academy/Developpez-des-applications-avec-TypeScript.git
 https://github.com/nx-academy/Developpez-des-applications-avec-TypeScript.git
 ```
 
-### Installation
 
-Pour installer les librairies :
-
-```
-npm i
-```
-
-Pour lancer la compilation de TypeScript vers JavaScript :
+Le code complet du projet se trouve sur la branche `full-project`.
 
 ```
-npm run build
-```
-
-Pour lancer la CLI :
-
-```
-node ./dist/app.js --help
+git checkout full-project
 ```
 
 ## Informations complémentaires:

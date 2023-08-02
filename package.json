@@ -1,11 +1,12 @@
 {
   "scripts": {
-    "compile": "node_modules/.bin/tsc",
+    "compile": "tsc",
     "start": "node ./dist/app.js",
     "format": "prettier --write .",
     "lint": "eslint --ignore-path .eslintignore --ext .ts ."
   },
   "devDependencies": {
+    "@types/node": "^20.4.5",
     "@typescript-eslint/eslint-plugin": "^5.61.0",
     "@typescript-eslint/parser": "^5.61.0",
     "eslint": "^8.44.0",

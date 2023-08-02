@@ -15,6 +15,7 @@ type Engineer = {
   books?: Book[];
   firstName: string;
   genre: Pronouns;
+  id: number;
   lastName: string;
   nickName?: string;
 };

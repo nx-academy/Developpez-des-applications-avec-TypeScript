@@ -5,38 +5,41 @@ export const ENGINEERS: Engineer[] = [
     age: 32,
     books: [
       {
-        name: 'React Native',
+        name: "React Native",
         publisher: "O'Reilly Media",
-        url: "https://www.oreilly.com/library/view/learning-react-native/9781491929049/"
-      }
+        url: "https://www.oreilly.com/library/view/learning-react-native/9781491929049/",
+      },
     ],
-    firstName: 'Dan',
+    firstName: "Dan",
     genre: ["he", "him"],
+    id: 1,
     lastName: "Abramov",
-    nickName: "gaearon"
+    nickName: "gaearon",
   },
   {
     age: 37,
-    firstName: 'Kent',
+    firstName: "Kent",
     genre: ["he", "him"],
-    lastName: 'C. Dodds'
+    id: 2,
+    lastName: "C. Dodds",
   },
   {
-    firstName: 'Sarah',
+    firstName: "Sarah",
     books: [
       {
-        name: 'SVG Animations',
+        name: "SVG Animations",
         publisher: "O'Reilly Media",
-        url: 'https://www.samanthaming.com/svg-animation-handbook/'
-      }
+        url: "https://www.samanthaming.com/svg-animation-handbook/",
+      },
     ],
     genre: ["she", "her"],
-    lastName: 'Drasner'
+    id: 3,
+    lastName: "Drasner",
   },
   {
-    firstName: 'Rachel',
+    firstName: "Rachel",
     genre: ["she", "her"],
-    lastName: 'Andrew'
-  }
-]
-
+    id: 4,
+    lastName: "Andrew",
+  },
+];

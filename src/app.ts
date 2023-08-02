@@ -1,6 +1,6 @@
 import * as readline from "readline";
 
-import { Engineer } from "./types";
+import { Engineer, Book } from "./types";
 import { ENGINEERS } from "./data";
 
 const rl = readline.createInterface({
@@ -35,10 +35,15 @@ function displayEngineer(engineer: Engineer): void {
     - id: ${engineer.id}
     - firstname: ${engineer.firstName}
     - lastname: ${engineer.lastName}
-    - books: ${engineer.books}
+    - books: ${formatBooks(engineer.books)}
     - genre: ${engineer.genre}
-    - age: ${engineer.age}
+    - age: ${engineer.age ? engineer.age : "confidential"}
   `);
+}
+
+function formatBooks(books?: Book[]): string {
+  if (!books) return "No books";
+  return books.map((book) => `${book.name} - ${book.url}`).join(", ");
 }
 
 function main(): void {

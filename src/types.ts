@@ -20,4 +20,4 @@ type Engineer = {
   nickName?: string;
 };
 
-export { Engineer };
+export { Book, Engineer };

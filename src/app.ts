@@ -1,6 +1,5 @@
 import * as readline from "readline";
 
-import { Engineer, Book } from "./types";
 import { ENGINEERS } from "./data";
 
 const rl = readline.createInterface({
@@ -8,7 +7,7 @@ const rl = readline.createInterface({
   output: process.stdout,
 });
 
-function displayEngineersList(engineers: Engineer[]): void {
+function displayEngineersList(engineers: any[]): any {
   console.log("---------");
   console.log("");
   engineers
@@ -29,7 +28,7 @@ function displayEngineersList(engineers: Engineer[]): void {
   );
 }
 
-function displayEngineer(engineer: Engineer): void {
+function displayEngineer(engineer: any): any {
   console.log(`
   Here are some information about ${engineer.firstName}:
     - id: ${engineer.id}
@@ -41,12 +40,12 @@ function displayEngineer(engineer: Engineer): void {
   `);
 }
 
-function formatBooks(books?: Book[]): string {
+function formatBooks(books?: any): any {
   if (!books) return "No books";
-  return books.map((book) => `${book.name} - ${book.url}`).join(", ");
+  return books.map((book: any) => `${book.name} - ${book.url}`).join(", ");
 }
 
-function main(): void {
+function main(): any {
   rl.question(
     `
 Developer Statistics Tool 

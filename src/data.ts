@@ -1,6 +1,4 @@
-import { Engineer } from "./types";
-
-export const ENGINEERS: Engineer[] = [
+export const ENGINEERS: any[] = [
   {
     age: 32,
     books: [

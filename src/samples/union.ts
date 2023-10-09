@@ -8,7 +8,8 @@ function displayName(firstName: string, lastName: string): string | Error {
 type AllUser = {
   age: number;
   books?: string[];
-  genre: ["he", "his"] | ["she", "her"];
+  gender: "male" | "female" | "other";
+  pronouns: ["he", "his"] | ["she", "her"];
   firstName: string;
   friends: string[];
   id: number;

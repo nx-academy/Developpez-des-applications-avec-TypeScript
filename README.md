@@ -41,6 +41,26 @@ Le code complet du projet se trouve sur la branche `full-project`.
 git checkout full-project
 ```
 
+### Installation
+
+Pour installer les librairies :
+
+```
+npm
+```
+
+Pour lancer la transcompilation de TypeScript vers JavaScript :
+
+```
+npm run compile
+```
+
+Pour lancer le programme :
+
+```
+npm start
+```
+
 ## Informations complémentaires:
 
 À partir de la partie 2, chaque chapitre comporte entre deux et trois branches :

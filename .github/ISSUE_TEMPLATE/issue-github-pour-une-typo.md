@@ -3,7 +3,7 @@ name: Issue GitHub pour une typo
 about: " Un mot manque dans l'un des cours ? Une phrase n'est pas complète. Vous voici
   face à une typo !"
 title: 'Typo - '
-projects: 'nx-academy/11'
+projects: 'nx-academy/projects/11'
 labels: Typo
 assignees: tdimnet
 
@@ -11,6 +11,14 @@ assignees: tdimnet
 
 # J'ai trouvé une typo !
 
+<!-- Avant d'aller plus loin, je vous invite à lire le texte ci-dessous Comment signaler une typo ? -->
+
+- où : 
+- Description :  
+
+
+
+<!-- 
 ## Comment signaler un typo ?
 
 Merci beaucoup de prendre le temps d'ouvrir une issue pour signaler une typo que vous avez trouvé sur le cours.
@@ -29,3 +37,8 @@ Nom de l'issue : **Partie 1 / chap 2 : mot oublié**
 - Description :  je crois que tu a oublié le "se" à "on sert le plus souvent...."
 
 ![image](https://github.com/nx-academy/Developpez-des-applications-avec-TypeScript/assets/9935925/49940233-dcd4-4182-b209-427f7ff88abf)
+
+
+Si vous vous demandez comment ajouter une image : https://stackoverflow.com/questions/10963205/how-to-attach-file-to-a-github-issue
+
+-->

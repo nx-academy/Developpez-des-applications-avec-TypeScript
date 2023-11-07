@@ -3,6 +3,7 @@ name: Issue GitHub pour une typo
 about: " Un mot manque dans l'un des cours ? Une phrase n'est pas complète. Vous voici
   face à une typo !"
 title: 'Typo - '
+projects: 'nx-academy/11'
 labels: Typo
 assignees: tdimnet
 
